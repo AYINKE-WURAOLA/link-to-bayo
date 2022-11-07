@@ -1,0 +1,279 @@
+/* .nav-item{
+    margin-left: 100px;
+} */
+.navbar-nav{
+    margin-left: 250px;
+
+}
+.nav-item{
+    font-size: 25px;
+    font-weight: 300;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 700;
+}
+.line{
+    width: 25px;
+    height: 5px;
+    background-color: black;
+    margin-top: -30px;
+    float: left;
+}
+h1{
+    margin-left: 25px;
+}
+
+/* .head, h1{
+    display: flex;
+    flex-direction: row;
+} */
+.line,.head{
+    display: flex;
+    flex-direction: row;
+}
+.row1{
+    margin-top: 110px;
+}
+h2{
+    font-size: 60px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+span{
+color: #328250;
+}
+.notify{
+    width: 500px;
+    height: 50px;
+    border: 3px solid rgb(50, 130, 80);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+ ::placeholder{
+    font-size: 20px;
+}
+.notify input{
+    width: 300px;
+    margin: 6px;
+    text-indent: 10px;
+    border-style: none;
+    border-image: initial;
+    border: none;
+    border-color: rgb(50, 130, 80);
+    outline: none;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+.btn1{
+    margin-left: 30px;
+    color: aliceblue;
+    border-radius: 20px;
+
+}
+p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.icons{
+    margin-top: 30px;
+}
+a i{
+    color: rgb(50, 130, 80);
+    font-size: 35px;
+    padding-top: 10px;
+    padding-left: 6px;
+    width:55px;
+    height: 55px;
+    border: 3px solid green;
+    border-radius: 50%;
+
+}
+.image1 img{
+    width: 90%;
+    margin-left: 90px;
+    margin-top: -40px;
+}
+.section1{
+    height: 100vh;
+}
+.text2{
+    text-align: center;
+}
+h3{
+    font-size: 40px;
+    color: rgb(50, 130, 80);
+}
+.line1{
+    width: 130px;
+    height: 1px;
+    background-color: gray;
+    /* margin-top: -30px; */
+    margin-left: 46%;
+}
+.line2{
+    width: 20px;
+    height: 1px;
+    background-color: blue;
+    /* margin-top: -30px; */
+    /* margin-left: 45%; */
+    margin-left: 50px;
+}
+
+.row5{
+    display: flex;
+    margin-top: 55px;
+
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+}
+.one i{
+    color: rgb(50, 130, 80);
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 2px;
+    width:40px;
+    height: 40px;
+    border: 3px solid green;
+    border-radius: 50%;
+}
+
+.one h4{
+    margin-left: 5px;
+}
+.one h4 span{
+    font-size: 22px;
+
+}
+.map{
+    margin-top: 30px;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+.address{
+    box-shadow: 0px 0px 24px  0px lightskyblue;
+background-color: white;
+border-top: 3px solid green;
+border-bottom: 3px solid green;
+}
+.info{
+    box-shadow: 0px 0px 24px  0px lightskyblue;
+    background-color: white;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    
+}  
+.two input{
+    width: 260px;
+    height: 35px;
+
+}
+label{
+    color: black;
+    font-size: 14px;
+}
+.email{
+    margin-left: 20px;
+}
+.sub label{
+    line-height: 40px;
+}
+.sub input{
+    width: 520px;
+    height:37px ;}
+.message{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+textarea{
+    width: 520px;
+}
+@media screen and (max-width:768px) {
+    nav{
+        margin: 0px !important;
+    }
+    .nav-item{
+        margin: 0px !important;
+        
+    }
+    /* nav{margin: 0px !important;}
+    .row1{
+      margin: 0px !important;
+    } */
+  .image1 img{
+      margin: 0px !important;
+      margin-top: 20PX !important;
+  
+    }
+    h2{
+        font-size: 30px;
+    }
+
+  .row1{
+    margin: 0px !important;
+  }  
+  .notify{ width: 320px !important;
+  
+  }
+  .notify button{
+      margin: 0px !important;
+      margin-top: -59px!important;
+      margin-left: 170px !important;
+  }
+  h3{
+    font-size: 25px;
+  }
+  .row5{
+      display: flex;
+      flex-direction: column;
+  }
+  .section1{
+      height: auto;
+  }
+
+  iframe{
+      width: 320px !important;
+      height: 250px !important;
+  }
+  .address {
+      margin-left: 15px !important;
+  }
+  .info{
+      margin: 0px !important;
+      margin-top: 20px !important;
+      margin-left: 15px !important;
+  }
+  .name input{
+      width: 150px !important;
+  
+  }
+  .email input{
+      width: 110px !important;
+  }
+  .sub label{
+    margin-top: -20px !important;
+  }
+  .sub input{
+      width: 250px !important;
+  }
+  .message label{
+    margin-top: -20px !important;
+  }
+  textarea{
+      width: 290px !important;
+  }
+  .btn2{
+      margin-top: 20px !important;
+      margin-bottom: 100px;
+      margin-left:100px !important;
+  }
+
+}
